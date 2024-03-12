@@ -22,7 +22,6 @@ nav {
     background-color: darkgrey;
     padding: 10px;
     text-align: center; /* Centraliza o conteúdo dentro do nav */
-    border-radius: 10px;
 }
 
 nav ul {
@@ -35,11 +34,26 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 10px;
+    position: relative; /* Define a posição relativa para permitir o posicionamento absoluto do ícone */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
+}
+
+/* Estilos para o ícone */
+.cart-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #333; /* Cor do ícone */
+    font-size: 24px; /* Tamanho do ícone */
+}
+
+/* Adiciona cor ao passar o cursor sobre os links */
+nav ul li:hover {
+    background-color: red; /* Altere para a cor desejada */
 }
 
 /* Estilos para o conteúdo principal */
@@ -76,4 +90,14 @@ footer {
 aside.left {
     padding: 0px 10px;
     background-position: 10px;
+}
+.botao-carrinho {
+    background-color: gray;
+    border-radius: 5px;
+}
+.botao-carrinho:hover {
+    background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
+}
+a{
+    text-decoration: none;
 }
