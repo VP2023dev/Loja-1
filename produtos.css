@@ -4,37 +4,35 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
-    position: relative; /* Para posicionar a imagem de forma absoluta em relação ao cabeçalho */
+    position: relative;
     border-radius: 10px;
 }
 
-/* Estilos para o logotipo */
 .logo {
     position: absolute;
-    top: 10px; /* Ajuste conforme necessário para a posição vertical */
-    left: 10px; /* Ajuste conforme necessário para a posição horizontal */
-    width: 50px; /* Ajuste conforme necessário para o tamanho do logotipo */
+    top: 10px;
+    left: 10px;
+    width: 50px;
     height: auto;
 }
 
-/* Estilos para a navegação */
 nav {
     background-color: darkgrey;
     padding: 10px;
-    text-align: center; /* Centraliza o conteúdo dentro do nav */
+    text-align: center; 
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 auto; /* Define margens automáticas para centralizar o nav */
-    display: inline-block; /* Permite a aplicação de margens automáticas */
+    margin: 0 auto;
+    display: inline-block;
 }
 
 nav ul li {
     display: inline;
     margin-right: 10px;
-    position: relative; /* Define a posição relativa para permitir o posicionamento absoluto do ícone */
+    position: relative;
 }
 
 nav ul li a {
@@ -42,31 +40,25 @@ nav ul li a {
     color: #333;
 }
 
-/* Estilos para o ícone */
 .cart-icon {
     position: fixed;
     top: 20px;
     right: 20px;
-    color: #333; /* Cor do ícone */
-    font-size: 24px; /* Tamanho do ícone */
+    color: #333;
+    font-size: 24px;
 }
-
-/* Adiciona cor ao passar o cursor sobre os links */
 nav ul li:hover {
-    background-color: red; /* Altere para a cor desejada */
+    background-color: red; 
 }
 
-/* Estilos para o conteúdo principal */
 main {
     background-color: #f9f9f9;
-    min-height: calc(100vh - 150px); /* 100% da altura da viewport - altura do cabeçalho e rodapé */
+    min-height: calc(100vh - 150px);
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    margin-top: 20px; /* Espaçamento entre o nav e o main */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
-
-/* Estilos para o rodapé */
 footer {
     background-color: #333;
     color: white;
@@ -78,7 +70,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Para que as imagens quebrem para a próxima linha conforme necessário */
+    flex-wrap: wrap;
 }
 
 .image-container img {
@@ -96,7 +88,7 @@ aside.left {
     border-radius: 5px;
 }
 .botao-carrinho:hover {
-    background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
+    background-color: #45a049;
 }
 a{
     text-decoration: none;
