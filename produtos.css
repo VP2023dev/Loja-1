@@ -1,0 +1,79 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Para posicionar a imagem de forma absoluta em relação ao cabeçalho */
+    border-radius: 10px;
+}
+
+/* Estilos para o logotipo */
+.logo {
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário para a posição vertical */
+    left: 10px; /* Ajuste conforme necessário para a posição horizontal */
+    width: 50px; /* Ajuste conforme necessário para o tamanho do logotipo */
+    height: auto;
+}
+
+/* Estilos para a navegação */
+nav {
+    background-color: darkgrey;
+    padding: 10px;
+    text-align: center; /* Centraliza o conteúdo dentro do nav */
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Define margens automáticas para centralizar o nav */
+    display: inline-block; /* Permite a aplicação de margens automáticas */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 150px); /* 100% da altura da viewport - altura do cabeçalho e rodapé */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 20px; /* Espaçamento entre o nav e o main */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Para que as imagens quebrem para a próxima linha conforme necessário */
+}
+
+.image-container img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+aside.left {
+    padding: 0px 10px;
+    background-position: 10px;
+}
